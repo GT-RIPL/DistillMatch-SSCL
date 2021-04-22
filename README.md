@@ -18,6 +18,7 @@ This work is partially supported by both the Lifelong Learning Machines (L2M) pr
 
 ## Citation
 If you found our work useful for your research, please cite our work:
+
     @article{smith2021memory,
       title={Memory-Efficient Semi-Supervised Continual Learning: The World is its Own Replay Buffer},
       author={Smith, James and Balloch, Jonathan and Hsu, Yen-Chang and Kira, Zsolt},
@@ -26,6 +27,7 @@ If you found our work useful for your research, please cite our work:
     }
 
 And also consider citing the framework in which our repo is built upon:
+
     @article{hsu2018re,
       title={Re-evaluating continual learning scenarios: A categorization and case for strong baselines},
       author={Hsu, Yen-Chang and Liu, Yen-Cheng and Ramasamy, Anita and Kira, Zsolt},
