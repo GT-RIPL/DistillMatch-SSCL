@@ -8,7 +8,7 @@ International Joint Conference on Neural Networks (IJCNN), 2021\
 ## Abstract
 
 <p align="center">
-<img src="images/SSCL.png" width="100%">
+<img src="DistillMatch.png" width="100%">
 </p>
 
 Rehearsal is a critical component for class-incremental continual learning, yet it requires a substantial memory budget. Our work investigates whether we can significantly reduce this memory budget by leveraging unlabeled data from an agent's environment in a realistic and challenging continual learning paradigm. Specifically, we explore and formalize a novel semi-supervised continual learning (SSCL) setting, where labeled data is scarce yet non-i.i.d. unlabeled data from the agent's environment is plentiful. Importantly, data distributions in the SSCL setting are realistic and therefore reflect object class correlations between, and among, the labeled and unlabeled data distributions. We show that a strategy built on pseudo-labeling, consistency regularization, Out-of-Distribution (OoD) detection, and knowledge distillation reduces forgetting in this setting. Our approach, DistillMatch, increases performance over the state-of-the-art by no less than 8.7\% average task accuracy and up to 54.5\% average task accuracy in SSCL CIFAR-100 experiments. Moreover, we demonstrate that DistillMatch can save up to 0.23 stored images per processed unlabeled image compared to the next best method which only saves 0.08. Our results suggest that focusing on realistic correlated distributions is a significantly new perspective, which accentuates the importance of leveraging the world's structure as a continual learning strategy.
@@ -24,6 +24,7 @@ If you found our work useful for your research, please cite our work:
       journal={arXiv preprint arXiv:2101.09536},
       year={2021}
     }
+
 And also consider citing the framework in which our repo is built upon:
     @article{hsu2018re,
       title={Re-evaluating continual learning scenarios: A categorization and case for strong baselines},
